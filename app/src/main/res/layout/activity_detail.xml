@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_user"/>
+
+                <TextView
+                    android:id="@+id/nameRequester"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="DEFAULT"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:text="Proccess : "/>
+
+                <TextView
+                    android:id="@+id/vacations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:text="Default"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:text="State : "/>
+
+                <TextView
+                    android:id="@+id/approved"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:text="Default"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fromTo"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.50"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:text="DEFAULT"/>
+
+                <TextView
+                    android:id="@+id/endTo"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.95"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:text="DEFAULT" />
+
+                    <ImageView
+                        android:id="@+id/list_user_itemView"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_weight="0.05"
+                        android:layout_gravity="right"
+                        android:background="@drawable/btn_add"
+                        android:src="@mipmap/ic_plus"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>

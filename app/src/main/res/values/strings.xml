@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Workportal</string>
+
+    <string name="pref_sort_list_dialog_title">Order By</string>
+
+    <string name="pref_entry_publishTime">Publish Time</string>
+
+    <string name="pref_sort_list_name">pref_sort_list_name</string>
+    <string name="pref_entry_approved">Approved</string>
+    <string name="pref_entry_pending">Pending</string>
+
+    <string name="pref_entry_pending_value">pending</string>
+    <string name="pref_entry_approved_value">approved</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "482273188535",
+    "firebase_url": "https://bizagitest-1263d.firebaseio.com",
+    "project_id": "bizagitest-1263d",
+    "storage_bucket": "bizagitest-1263d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482273188535:android:07d4d70f44440aca",
+        "android_client_info": {
+          "package_name": "jjto.com.workportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482273188535-ern54u03tq145vuplti79ei3oqm92l8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jjto.com.workportal",
+            "certificate_hash": "827da71dcd81742cc50360fb49e78d3bb68c1f93"
+          }
+        },
+        {
+          "client_id": "482273188535-38shll5ru7m7b0c3iv48qokjfup3087u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGFht1YYZMf6h2d6tvT3P4dnT4CDg_hik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482273188535-38shll5ru7m7b0c3iv48qokjfup3087u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
